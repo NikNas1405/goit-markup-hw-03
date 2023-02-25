@@ -347,13 +347,14 @@ img {
 /* PORTFOLIO.HTML */
 .main-container {
   padding-top: 96px;
-  padding-bottom: 120px;
+  padding-bottom: 72px;
 }
 
 .button-list {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 0;
 }
 
 /* .button-item { } */
@@ -361,6 +362,10 @@ img {
 .button-item:not(:last-child) {
   margin-right: 24px;
 }
+
+/* .gallery-container {
+    
+  } */
 
 .gallery-button {
   font-family: inherit;
@@ -375,7 +380,6 @@ img {
   color: var(--primary-brand-color);
   cursor: pointer;
   padding: 12px 24px;
-  margin-bottom: 72px;
 }
 
 .gallery-button:hover,
@@ -384,6 +388,10 @@ img {
   color: var(--secondary-light-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.gallery-container {
+  padding-bottom: 120px;
 }
 
 .photo-gallery-list {
