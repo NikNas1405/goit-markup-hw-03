@@ -203,6 +203,7 @@ img {
 
 .section {
   padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .hero {
@@ -250,7 +251,9 @@ img {
 
 /* advantages */
 
-/* can be used later     .advantages {}  */
+.advantages {
+  padding-bottom: 0;
+}
 
 .advantage-list {
   display: flex;
@@ -291,14 +294,12 @@ img {
 .about-list {
   display: flex;
   margin-top: 72px;
-  padding-bottom: 120px;
 }
 
 /* Team */
 
 .team {
   background-color: var(--light-color);
-  padding-bottom: 120px;
 }
 
 .team-title {
