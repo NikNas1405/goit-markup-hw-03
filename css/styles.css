@@ -256,6 +256,10 @@ img {
 .advantage-list {
   display: flex;
 }
+
+.advantage-item {
+  max-width: 264px;
+}
 .advantage-item:not(:last-child) {
   margin-right: 24px;
 }
