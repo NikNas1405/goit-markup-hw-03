@@ -345,11 +345,14 @@ img {
 /* /INDEX.HTML */
 
 /* PORTFOLIO.HTML */
+.main-container {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
 
 .button-list {
   display: flex;
   justify-content: center;
-  margin-top: 96px;
   align-items: center;
 }
 
@@ -418,6 +421,6 @@ img {
   margin-top: 8px;
 }
 
-.gallery-container {
+/* .gallery-container {
   padding-bottom: 120px;
-}
+} */
