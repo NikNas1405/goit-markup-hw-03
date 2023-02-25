@@ -402,15 +402,27 @@ img {
   width: 100%;
 }
 
+/*  стара версія для 
+  column-gap: 24px;
+  row-gap: 48px;
+це 
+
+.photo-gallery-list:not(:ntn-child(3n)) {
+  margin-right: 24px;
+}
+.photo-gallery-list:not(:ntn-last-child(-n + 3)) {
+  margin-bottom: 48px;
+} */
+
 .photo-gallery-item {
   background-color: var(--secondary-light-color);
-  border-bottom: 1px solid var(--accent-color);
   flex-basis: calc((100% - 2 * 24) / 3);
   overflow: hidden;
 }
 
 .gallery-item-text-part {
   padding: 32px 16px;
+  border: 1px solid var(--accent-color);
 }
 
 .gallery-subtitle {
