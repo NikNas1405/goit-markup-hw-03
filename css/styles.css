@@ -68,7 +68,7 @@ img {
 }
 
 .container {
-  width: 1158px;
+  max-width: 1158px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
@@ -257,14 +257,22 @@ img {
 
 .advantage-list {
   display: flex;
+  gap: 24px;
+  width: 100%;
 }
 
 .advantage-item {
-  max-width: 264px;
+  flex-basis: calc((100%-3 * 24) / 4);
 }
+
+/*  стара версія для 
+  gap: 24px;
+
+  це 
+
 .advantage-item:not(:last-child) {
   margin-right: 24px;
-}
+} */
 
 .advantage-title {
   font-weight: 500;
@@ -287,14 +295,20 @@ img {
   text-align: center;
 }
 
-.about-item:not(:last-child) {
-  margin-right: 24px;
-}
-
 .about-list {
   display: flex;
   margin-top: 72px;
+  gap: 24px;
+  width: 100%;
 }
+
+.about-item {
+  flex-basis: calc((100%-2 * 24) / 3);
+}
+
+/* .about-item:not(:last-child) {
+  margin-right: 24px;
+} */
 
 /* Team */
 
