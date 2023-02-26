@@ -83,14 +83,14 @@ img {
 
 .header {
   border-bottom: 1px solid var(--accent-color);
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .header-container {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+    padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-navigation {
@@ -376,13 +376,14 @@ img {
   justify-content: center;
   align-items: center;
   padding-bottom: 0;
+  gap: 24px;
 }
 
 /* .button-item { } */
 
-.button-item:not(:last-child) {
+/* .button-item:not(:last-child) {
   margin-right: 24px;
-}
+} */
 
 /* .gallery-container {
     
